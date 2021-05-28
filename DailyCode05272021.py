@@ -1,18 +1,18 @@
-# --------------------------------------------------------------------------------------
+# -----------------------------------------------------------
 # #	Daily Code	05/27/2021
-#   "Area of a Triangle (one line)" Lesson from edabit.com
+#   "Convert Age to Days (one line)" Lesson from edabit.com
 #   Coded by: Banehowl
-# --------------------------------------------------------------------------------------
+# -----------------------------------------------------------
 
-# Write a function that takes the base and height of a triangle and return its area.
+# Create a function that takes the age in years and returns the age in days.
 
-# tri_area(3, 2) -> 3
-# tri_area(7, 4) -> 14
-# tri_area(10, 10) -> 50
+# calc_age(65) -> 23725
+# calc_age(0) -> 0
+# calc_age(20) -> 7300
 
-def tri_area(x, y):
-    return (x*y) / 2
+def calc_age(num):
+    return num * 365
 
-print tri_area(3, 2)
-print tri_area(7, 4)
-print tri_area(10, 10)
+print calc_age(65)
+print calc_age(0)
+print calc_age(20)
